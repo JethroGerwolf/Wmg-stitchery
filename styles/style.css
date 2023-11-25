@@ -13,6 +13,24 @@ body{
     margin: auto; 
 
 }
+main{
+    width: 75%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+main img{
+    width: 500px;
+    height: 500px;
+}
+main p{
+    font-size: 1.5rem;
+}
+main h3{
+    font-size: 1.5rem;
+}
+main h4{
+    font-size: 1.5rem;
+}
 header{ 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -31,9 +49,9 @@ nav{
 a{
     font-weight: bold;
     text-decoration: none;
-    color: black;
     align-self: center;
-    text-shadow: 4px 2px 1px rgba(161, 159, 159, 0.4);
+    color: white;
+    text-shadow: 4px 2px 1px rgba(0, 0, 0, 0.8);
 }
 a:hover{
     color: white;
