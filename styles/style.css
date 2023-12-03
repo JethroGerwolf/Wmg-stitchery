@@ -31,6 +31,15 @@ main h3{
 main h4{
     font-size: 1.5rem;
 }
+.contact{
+    margin-top: 250px;
+    margin-bottom: 500px;
+}
+.id_photo{
+    float: left;
+    margin: 10px;
+}
+
 header{ 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
